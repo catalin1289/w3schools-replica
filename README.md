@@ -1,6 +1,9 @@
 # Pug starter
 ## YouTube video tutorials
 
+my first step 
+my second one
+
 To help you out even more I've put together some YouTube tutorials:
 
 * Install nodejs, gulp v4, git and github: https://youtu.be/A-iTEtt6SN8
@@ -10,6 +13,8 @@ To help you out even more I've put together some YouTube tutorials:
   
 
 Starter package for pug (former jade) template based projects.
+
+:)
 
 ***Note***: an boolean option **config.render.sourceFileChange** has been added to the *package.json*. The behaviour differs based on the value:
 1. **true** - it renders if the source file (pug file) has been changed; This has a much much greater speed when rendering compared to the other option however it's only relevant if you make change to the current file watched by PUG. If you make a change to a file that's extended and resides in a path that contains "_", like a layout one, the change won't be reflected.
