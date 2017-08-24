@@ -1,0 +1,21 @@
+# Agenda
+
+✔ see our website online @done (24/08/2017, 13:38:46)
+  ✔ use "npm run deploy"wich you can find in the read file of pug.starter @done (24/08/2017, 13:38:48)
+☐ Identify repeatablee areas and 
+  ✔ create a template for the layout @done (24/08/2017, 15:09:45)
+  ☐ extract header, footer and nav into components
+☐ Use JavaScript variables to pass the through pug files
+☐ Refactor header using "each" loop
+☐ Refactor nav using " each" loop
+☐ Create multiple pages
+  ☐ home
+    ☐ html
+      ☐ elements
+      ☐ attributes
+      ☐ headings
+    ☐ css
+      ☐ colors
+      ☐ backgrounds
+      ☐ borders
+    javaScript
