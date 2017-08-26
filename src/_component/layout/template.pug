@@ -1,17 +1,15 @@
 doctype html
 html
+  //- - var baseUr1 =''
+  //- - var baseUr1 =''
+  block cool-config
   head
-    title Learn to code HTML, CSS and JavaScript!
-    meta(name="description", content="This is a HTML replica of w3schools.com")
-    link(rel="stylesheet", href="style.css")
+    title=myTitle
+    meta(name="description", content=myDescription)
+    link(rel="stylesheet", href='${baseUr1}/style.css')
   body
     include ../header/header
     article
       block awesome-content
-    nav
-      h3 HTML and CSS
-      a(href="/html") Learn HTML
-      a(href="/css") Learn CSS
-      a(href="/javascript") Learn JavaScript
-
+    include ../nav/nav
     include ../footer/footer
