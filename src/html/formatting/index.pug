@@ -1,0 +1,33 @@
+extends ../../_component/layout/template
+//- ai facut ieri cd .., da?ce cd? change directory ..da, schimba alea doua cu .., e acelasi lucru
+
+block cool-config
+  -
+    var myTitle = 'Learn to code HTML formatting for beginners'
+    var myDescription = 'HTML uses elements like <b> and <i> for formatting output, like bold or italic text.'
+    var landingPage = 'HTML';
+    var activeLink = '/html/formatting';
+
+block awesome-content
+  h1=myTitle
+  p=myDescription
+
+  p
+    b This text is bold
+  p
+    strong This text is strong
+  p
+    //- GANDESTE, care e tagul si care e continutui
+    i this text is italic yeeey :)
+  //- aici ai tag in tag dar pe linii diferite
+  p
+    em This text is emphasized
+  //- asta e de exemplu cum pui tag in tag in aceeasi linie
+  p Not my first paragraph. :)#[br]and we make use of the break tag and #[span(style="color:blue") the "span" tag].
+  h2 HTML #[small Small] Formatting
+  h2 HTML #[mark This is Marked text] :):) Formatting
+  p My favourite color is #[del blue ] red
+  p My favorite #[ins color ] is red
+  p This is #[sub text precum continut] text.
+  p This is #[sup ana are mere ] text.
+  
