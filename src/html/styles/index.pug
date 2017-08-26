@@ -1,0 +1,23 @@
+extends ../../_component/layout/template
+//- ai facut ieri cd .., da?ce cd? change directory ..da, schimba alea doua cu .., e acelasi lucru
+
+block cool-config
+  -
+    var myTitle = 'Learn to code HTML Styles for beginners'
+    var myDescription = 'Setting the style of an HTML element, can be done with the style attribute.'
+    var landingPage = 'HTML';
+    var activeLink = '/html/styles';
+
+block awesome-content
+  h1=Title
+  p=description
+
+  div(style="background-color:yellow") tananana
+  h1(style="color:blue") This is a heading
+  p(style="color:red")  This is a paragraph 
+  h1(style="font-family:verdana") This is a heading
+  p(style="font-family:courier") This is a paragraph
+  h1(style="font-size:250%;") This is a heading 
+  p(style="font-size:160%; color:blue; background-color:yellow") This is a paragraph
+  h1(style="text-align:center") Centered Heading
+  p(style="text-align:center") Centered paragraph
