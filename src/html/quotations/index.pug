@@ -1,0 +1,30 @@
+extends ../../_component/layout/template
+//- ai facut ieri cd .., da?ce cd? change directory ..da, schimba alea doua cu .., e acelasi lucru
+
+block cool-config
+  -
+    var myTitle = 'Learn to code HTML Quotations for beginners'
+    var myDescription = 'Browsers usually insert quotation marks around the <q> element.'
+    var landingPage = 'HTML';
+    var activeLink = '/html/quotations';
+
+block awesome-content
+  h1=myTitle
+  p=myDescription
+
+  p WWF's goal is to #[q buid a future where people live in harmony with nature].
+  p Here is a quote from WWF's website
+  blockquote(cite="http://www.worldwildlife.org/org/who/index.html")
+    | For 50 years,WWF has been protecting the future of nature.
+    | The world's leading conservation organization,
+    | WWF works in 100 countries and is suported by 
+    | 1.2 milion members in the United States and close to 5 million globally.
+  p The #[abbr(title="World Health Organization") WHO] was founded in 1948.
+  address
+    | Written by John Doe.#[br]
+    | Visit us at:#[br]
+    | example.com#[br]
+    | Box 564, Disneyland#[br]
+    | USA
+  p #[cite The Scream ] by Edvard Munch.Painted in 1893.
+  bdo(dir="rtl") This text will be written from right to left.
