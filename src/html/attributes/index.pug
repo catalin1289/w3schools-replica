@@ -3,17 +3,17 @@ extends ../../_component/layout/template
 
 block cool-config
   -
-    var myTitle = 'Learn to code HTML, CSS and JavaScript';
-    var myDescription = 'HTML is easy and fun to learn!!';
+    var myTitle = 'Learn to code HTML Attributes for beginners';
+    var myDescription = 'Attributes provide additional information about HTML elements.';
     var landingPage = 'HTML';
-    var activeLink = '';
+    var activeLink = '/html/attributes';
 
 block awesome-content
+  //- nu am terminat inca
   h1=myTitle
-  p=MyDescription
-  h2 HTML Elements
-  p An HTML element usually consists of a start tag and end tag,with the content insterted in between.
-  h2 HTML Attributes
-  p Attributes provide additional information about HTML elements.
-  h2 HTML Headings
-  p Headings are important in HTML documents.
+  p=myDescription
+  p(title="This is a tooltip :):)") This paragraph has a tooltip.
+  a(href="http://youtube.com/codetap") And this link takes you to CodeTap on YouTube.
+  p The next image will have width of 200 and height of 100
+  img(src="http://lorempixel.com/200/100", width="200", height="100", alt="This text shows if the image fails to load to provide the user with more info")
+
