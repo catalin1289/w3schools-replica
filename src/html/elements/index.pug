@@ -2,17 +2,14 @@ extends ../../_component/layout/template
 
 block cool-config
   -
-    var myTitle = 'Learn to code HTML Attributes for beginners';
-    var myDescription = 'Attributes provide additional information about HTML elements.'
+    var myTitle = 'Learn to code HTML Elements for beginners';
+    var myDescription = 'An HTML element usually consists of a start tag and end tag, with the content inserted in between'
     var landingPage = 'HTML';
     var activeLink = '/html/elements';
 
 block awesome-content
-  h1=Title
-  p=description
-  h2 Example
+  h1=myTitle
+  p=myDescription
 
-  p(title="This is a tooltip :):):)") This paragraph has a tooltip.
-  a(href="http://youtube.com/codetap") And this is link takes you to Codetap on Youtube.
-  p The next image will have width of 200 and height of 100
-  img(src="http://lorempixel.com/200/100", width="200", height="100", alt="THIS TEXT SHOW LKJDALJDLA")
+  h1 Not my first heading.
+  p Not my first paragraph. :)#[br]and we make use of the break tag and #[span(style="color:blue") the "span" tag].
