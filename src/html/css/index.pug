@@ -1,0 +1,20 @@
+extends ../../_component/layout/template
+
+block cool-config
+  -
+    var myTitle = 'HTML css';
+    var myDescription = 'CSS describes how HTML elements are to be displayed on screen, paper, or in other media.';
+    var landingPage = 'HTML';
+    var activeLink = '/html/css';
+
+block awesome-content
+  h1=myTitle
+  p=myDescription
+  h2 inline style
+  p(style="color:red") this text has a green color
+  p this text has a green color
+  h2 internal css
+  style
+    | h1{color:orange} 
+  h1 inline styles 
+  h1 inline styles 

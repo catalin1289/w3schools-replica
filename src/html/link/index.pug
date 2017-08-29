@@ -1,0 +1,30 @@
+extends ../../_component/layout/template
+
+block cool-config
+  -
+    var myTitle = 'HTML link'
+    var myDescription = 'Links are found in nearly all web pages. Links allow users to click their way from page to page.'
+    var landingPage = 'HTML';
+    var activeLink = '/html/link';
+
+block awesome-content
+  h1=myTitle
+  p=description
+  a(href="https://github.com/?1") visit awesome github
+  style.
+    a {
+      color:brown;
+    }
+    a:visited {
+      color:red
+    }
+    a:active {
+      color:pink
+    }
+    a:hover {
+      color:gray
+    }
+  a(href="https://catalin1289.github.io/w3schools-replica", target="_blank") visit awesome web site
+  a(href="#C4") Jump o Chapter 4
+
+

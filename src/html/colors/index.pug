@@ -1,0 +1,16 @@
+extends ../../_component/layout/template
+
+block cool-config
+  -
+    var myTitle = 'HTML colors';
+    var myDescription = 'In HTML, a color can be specified by using a color name, an RGB value, or a HEX value.';
+    var landingPage = 'HTML';
+    var activeLink = '/html/colors';
+
+block awesome-content
+  h1=myTitle
+  p=myDescription
+  h2(style="background-color:yellow") this has background color yellow 
+  h2(style="background-color:blue") this has a blue background color
+  h2(style="background-color:red") this has a red background color
+  h2(style="background-color:pink") this has a pink background color

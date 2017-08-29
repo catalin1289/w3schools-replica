@@ -1,0 +1,58 @@
+extends ../../_component/layout/template
+
+block cool-config
+  -
+    var myTitle = 'HTML Table';
+    var myDescription = 'An HTML table is defined with the <table> tag.';
+    var landingPage = 'HTML';
+    var activeLink = '/html/table';
+
+block awesome-content
+  h1=myTitle
+  p=myDescription
+  table
+    tr
+      th first name
+      th second name
+      th age
+    tr 
+      td catalin
+      td barbulescu
+      td 27
+    tr
+      td gratiela
+      td marinica
+      td 5
+    tr
+      td andrei 
+      td maia
+      td 5
+  style.
+    td{padding:20px}
+  table(width="100%")
+    tr
+      td(rowspan="2", style="background-color: #ADFF2F") a
+      td(style="background-color: #7FFF00") b
+      td(style="background-color: #7CFC00") c
+      td(style="background-color: #00FF00") d
+    tr
+      td(style="background-color: #32CD32") e
+      td(colspan="2", style="background-color: #98FB98") f
+    tr
+      td(style="background-color: #90EE90") j
+      td(style="background-color: #00FA9A") k
+      td(style="background-color: #00FF7F") k
+      td(style="background-color: #3CB371") l
+    tr
+      td(colspan="3", style="background-color: #228B22") m
+      td(style="background-color: #2E8B57") n
+    tr
+      td(style="background-color: #008000") o
+      td(style="background-color: #006400") p
+      td(colspan="2", rowspan="3", style="background-color: #000080") q
+    tr
+      td(style="background-color: #9ACD32") r
+      td(style="background-color: #6B8E23") s
+    tr
+      td(style="background-color: #556B2F") t
+      td(style="background-color: #66CDAA") q

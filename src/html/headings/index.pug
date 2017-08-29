@@ -3,19 +3,25 @@ extends ../../_component/layout/template
 
 block cool-config
   -
-    var myTitle = 'Learn to code HTML Headings for beginners'
+    var myTitle = 'HTML Headings '
     var myDescription = 'Headings are important in HTML documents.'
     var landingPage = 'HTML';
     var activeLink = '/html/headings';
 
 block awesome-content
-  h1=Title
-  p=description
+  h1=myTitle
+  p=myDescription
   h2 Example
+  P='HTML Headings'
+  h1 This is heading 1
+  h2 This is heading 2
+  h3 This is heading 3
+  h4 This is heading 4
+  h5 This is heading 5
+  h6 This is heading 6
 
-  h1 This is the cool heading 1
-  h2 This is the cool heading 2
-  h3 This is the cool heading 3
-  h4 This is the cool heading 4
-  h5 This is the cool heading 5
-  h6 This is the cool heading 6
+  p Note:Browser automatically add some white space (a margin) before and after a heading.
+  p(style="font-size:190%;") Headings Are Important
+
+
+

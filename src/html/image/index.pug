@@ -1,0 +1,16 @@
+extends ../../_component/layout/template
+
+block cool-config
+  -
+    var myTitle = 'HTML Image';
+    var myDescription = 'In HTML, images are defined with the <img> tag.';
+    var landingPage = 'HTML';
+    var activeLink = '/html/image';
+
+block awesome-content
+  h1=myTitle
+  p=myDescription
+  h2 Specular Montain
+  img(src='http://lorempixel.com/200/150/', alt='Montain View',style='width:200px; height:150px')
+  img(src='http://lorempixel.com/300/400/', alt='HTML5 Icon', style='width:300px;height:400px;')
+  img(src='http://lorempixel.com/128/128/', alt='HTML5 Icon', width='128', height='128')
